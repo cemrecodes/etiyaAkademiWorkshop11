@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My First Website</title>
+        <!--11 meta tags-->
+        <meta charset="UTF-8">
+        <title>My first website</title>
+        <meta name="description" content="Cemre Şenyuva | Etiya Akademi Homework">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Cemre">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="30">
     </head>
     <body>
         <!-- comment  -->
@@ -12,8 +19,6 @@
         <a href="page2.html" target=_self title="to second page">
             Page 2
         </a>
-        <img src="ttpd_anthology.jpg" alt="Taylor Swift TTPD Anthology album cover"  title="TTPD Anthology" height="300" width="300">
-        <br/>
         <h1>I like pizza!</h1>
         <br/>
         <h2>I like pizza!</h2>
@@ -27,5 +32,89 @@
         <h6>I like pizza!</h6>
         <br/>
         <p>paragraf</p>
+        <!--img-->
+        <br/>
+        <img src="ttpd_anthology.jpg" alt="Taylor Swift TTPD Anthology album cover"  title="TTPD Anthology" height="300" width="300">
+        <br/>
+        <!--audio-->
+        <audio controls autoplay muted loop>
+            <source src="Everybody Get Up - Everet Almond.mp3">
+            <source src="Everybody Get Up - Everet Almond.wav">
+            This browser doesn't support HTML5 audio
+        </audio>
+        <!--video-->
+        <!--
+        <video controls autoplay muted loop width="300">
+            <source src="video.mp4">
+            <source src="video.WebM">
+            This browser doesn't support HTML5 audio
+        </video>
+        -->
+        <!--text formatting-->
+        <br>
+        <p>This is normal text</p>
+        <p>This is <b>bold</b> text</p>
+        <p>This is <i>italic</i> text</p>
+        <p>This is <big>big</big> text</p>
+        <p>This is <small>small</small> text</p>
+        <p>This is <sub>subscript</sub> text</p>
+        <p>This is <sup>superscript</sup> text</p>
+        <p>This is <ins>inserted</ins> text</p>
+        <p>This is <del>deleted</del> text</p>
+        <p>This is <mark>marked</mark> text</p>
+        <!--7 lists-->
+        <br>
+        <h4>Unordered List</h4>
+        <ul>
+            <li>pizza dough</li>
+            <li>tomato sauce</li>
+            <li>cheese</li>
+            <li>toppings
+                <ul>
+                    <li>pepperoni</li>
+                    <li>mushrooms</li>
+                    <li>peppers</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Ordered List</h4>
+        <ol type="A">
+            <li>eat breakfast</li>
+            <li>take shower</li>
+            <li>leave for work</li>
+        </ol>
+
+        <h4>Description List</h4>
+        <dl>
+            <dt>HTML</dt>
+            <dd>This adds structure a webpage</dd>
+            <dt>CSS</dt>
+            <dd>This adds style a webpage</dd>
+            <dt>JavaScript</dt>
+            <dd>This adds functionality a webpage</dd>
+        </dl>
+        <!--8 tables-->
+        <br>
+        <table bgcolor="black" width="700">
+            <tr bgcolor="grey">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>Closed</td>
+            </tr>
+        </table>
     </body>
 </html>
